@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Świąteczna Strona</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0cec4f;
+    }
+
+    header, nav, section, article, footer {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #c72626;
+      background-color: #f01212;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    section {
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Dodatkowe style odliczania */
+    #countdown {
+      font-size: 1.5em;
+      margin: 20px 0;
+      color: white;
+      text-align: center;
+    }
+  </style>
+  <link rel="stylesheet" href="styl.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="animacje.css">
+</head>
+<body>
+
+  <header>
+    <h1>Świąteczna Strona</h1>
+  </header>
+
+  <nav>
+    <a href="strona1.html">Strona główna</a>
+    <a href="sylwester.html">Sylwester</a>
+    <a href="strona2.html">Boże narodzenie</a>
+    <a href="strona3.html">Boże narodzenie w innej religii</a>
+    <a href="strona4.html">Potrawy świąteczne</a>
+    <a href="strona5.html">Bezpieczeństwo podczas ferii</a>
+  </nav>
+
+  <section>
+    <h2>Strona Główna</h2>
+    <p>Witaj na naszej świątecznej stronie! Znajdziesz tutaj różne treści związane ze świętami, w tym zdjęcia i filmy.</p>
+    <!-- Sekcja odliczania -->
+    <p id="countdown">Ładowanie odliczania...</p>
+  </section>
+
+  <article id="Sylwester">
+    <h2>Zdjęcia</h2>
+    <img src="swiateczne_zdjecie1.jpg" alt="Świąteczne Zdjęcie 1">
+    <img src="swiateczne_zdjecie2.jpg" alt="Świąteczne Zdjęcie 2">
+  </article>
+
+  <article id="Boże narodzenie">
+    <section>
+        <h2>Kolędy</h2>
+        <!-- Pierwszy film -->
+        <video controls>
+            <source src="koleda.mp4" type="video/mp4">
+            
+        </video>
+        <!-- Drugi film -->
+        <video controls>
+            <source src="kolenda.mp4" type="video/mp4">
+            
+        </video>
+    </section>
+  </article>
+
+  <article id="Boże narodzenie w innej religii">
+    <h2>Tradycje</h2>
+    <p>Odkryj różne świąteczne tradycje związane z Bożym Narodzeniem i Nowym Rokiem.</p>
+  </article>
+
+  <article id="Potrawy świąteczne">
+    <section>
+        <h2>Reklama</h2>
+        <!-- Hiperłącze ukryte za zdjęciem -->
+        <a href="https://www.mediaexpert.pl/" class="image-link">
+            <img src="reklama.jpg" alt="Kliknij, aby odwiedzić stronę">
+        </a>
+    </section>
+  </article>
+
+  <footer>
+    <p>© 2024 Świąteczna Strona</p>
+</footer>
+<script src="skrypt.js"></script>
+<script src="interakcje.js"></script>
+<script src="odliczanie.js"></script>
+<script src="swiateczne_swiatelka.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* animacje.css */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #004080;
+    transform: scale(1.05);
+}
